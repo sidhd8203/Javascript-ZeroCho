@@ -1,0 +1,21 @@
+var word ="강아지"
+while(true){
+    var anwser = prompt(word)
+    if(word[word.length-1]===anwser[0]){
+        alert("success")
+        word = anwser
+    }
+    else alert("failure")
+}
+
+
+for(var word ="강아지"; true;){
+    var anwser = prompt(word)
+    if(word[word.length-1]===anwser[0]){
+        alert("success")
+        word = anwser
+    }
+    else alert("failure")
+}
+
+
